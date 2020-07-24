@@ -3,7 +3,7 @@ import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 
 function NavComp() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg" className="d-flex">
       <div className="d-flex mr-auto">
         <Navbar.Brand href="#home">Diamond Ceramics & Detailing</Navbar.Brand>
       </div>

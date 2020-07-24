@@ -4,7 +4,7 @@ import { Card, Button } from "react-bootstrap";
 function ServCards(props) {
   const { type, info } = props;
   return (
-    <Card style={{ width: "18rem" }}>
+    <Card>
       <Card.Img variant="top" src="http://placehold.it/100x100" />
       <Card.Body>
         <Card.Title>{type}</Card.Title>
