@@ -1,18 +1,11 @@
 import React from "react";
 import "./style.css";
+import Image from "react-bootstrap/Image";
 
 function MainImage() {
   return (
     <>
-      <img
-        src="http://placehold.it/2000x720"
-        className="img-fluid"
-        alt="Responsive image"
-      ></img>
-      <div className="text-block">
-        <h4>Title</h4>
-        <p>Some text about the image</p>
-      </div>
+      <Image src="http://placehold.it/1500x500" fluid />
     </>
   );
 }
