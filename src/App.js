@@ -1,7 +1,6 @@
 import React from "react";
 // import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import Home from "./pages/Home";
-import { Card, CardDeck } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -11,6 +10,7 @@ import NavComp from "./components/Navbar";
 import MainImage from "./components/MainImage";
 import ServCards from "./components/Service Cards";
 import EmailInput from "./components/EmailInput";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -40,6 +40,11 @@ function App() {
         <Row>
           <Col size="md-12">
             <EmailInput />
+          </Col>
+        </Row>
+        <Row>
+          <Col size="md-12">
+            <Footer />
           </Col>
         </Row>
       </Container>

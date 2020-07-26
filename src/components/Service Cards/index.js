@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 function ServCards(props) {
   const { type, info } = props;
@@ -9,7 +9,6 @@ function ServCards(props) {
       <Card.Body>
         <Card.Title>{type}</Card.Title>
         <Card.Text>{info}</Card.Text>
-        <Button variant="primary">More info</Button>
       </Card.Body>
     </Card>
   );
