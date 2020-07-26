@@ -10,6 +10,7 @@ import data from "./data/services";
 import NavComp from "./components/Navbar";
 import MainImage from "./components/MainImage";
 import ServCards from "./components/Service Cards";
+import EmailInput from "./components/EmailInput";
 
 function App() {
   return (
@@ -35,6 +36,11 @@ function App() {
               />
             </Col>
           ))}
+        </Row>
+        <Row>
+          <Col size="md-12">
+            <EmailInput />
+          </Col>
         </Row>
       </Container>
     </div>
