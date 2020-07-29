@@ -42,10 +42,8 @@ function App() {
             <EmailInput />
           </Col>
         </Row>
-        <Row>
-          <Col size="md-12">
-            <Footer />
-          </Col>
+        <Row className="d-flex flex-wrap ft-background">
+          <Footer />
         </Row>
       </Container>
     </div>

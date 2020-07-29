@@ -6,3 +6,12 @@
 .ft-text {
   color: white;
 }
+
+.ft-background {
+  background-color: darkgrey;
+}
+
+.ft-row {
+  display: flex;
+  justify-content: center;
+}
