@@ -4,7 +4,6 @@ import Col from "react-bootstrap/Col";
 import MainImage from "../components/MainImage";
 import ServCards from "../components/Service Cards";
 import EmailInput from "../components/EmailInput";
-
 import data from "../data/services";
 
 const Home = () => {
