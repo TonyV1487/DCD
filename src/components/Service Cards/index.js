@@ -3,12 +3,16 @@ import { Card } from "react-bootstrap";
 
 function ServCards(props) {
   const { type, info } = props;
+  console.log(type);
+  console.log(info);
   return (
     <Card>
-      <Card.Img variant="top" src="http://placehold.it/100x100" fluid />
+      <Card.Img variant="top" src="http://placehold.it/100x100" />
       <Card.Body>
         <Card.Title>{type}</Card.Title>
-        <Card.Text>{info}</Card.Text>
+        {info.map((info) => (
+          <Card.Text key={info}>{info.short}</Card.Text>
+        ))}
       </Card.Body>
     </Card>
   );

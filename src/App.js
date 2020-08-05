@@ -25,7 +25,7 @@ function App() {
             <Route exact path={["/"]}>
               <Home />
             </Route>
-            <Route exact path={["/services"]}>
+            <Route path="/services/:id" children={<Services />}>
               <Services />
             </Route>
           </Switch>

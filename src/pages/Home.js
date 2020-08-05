@@ -16,11 +16,11 @@ const Home = () => {
       </Row>
       <Row>
         {data.map((service) => (
-          <Col lg={4} sm={6}>
+          <Col lg={4} sm={6} key={service.service}>
             <ServCards
-              key={service.type}
-              type={service.type}
-              info={service.info}
+              key={service.service}
+              type={service.service}
+              info={service.detail}
             />
           </Col>
         ))}

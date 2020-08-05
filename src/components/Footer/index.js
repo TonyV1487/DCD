@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { Navbar, Row, Col, Container } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
