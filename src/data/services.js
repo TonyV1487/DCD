@@ -38,6 +38,26 @@ export default [
         long: "This is a long description of the service Semi",
       },
     ],
+    servLevel: [
+      {
+        level: 1,
+        title: "Level 1 Detail",
+        price: 100,
+        detail: "Level 1 detail description",
+      },
+      {
+        level: 2,
+        title: "Level 2 Detail",
+        price: 200,
+        detail: "Level 2 detail description",
+      },
+      {
+        level: 3,
+        title: "Level 3 Detail",
+        price: 300,
+        detail: "Level 3 detail description",
+      },
+    ],
   },
   {
     index: "undercoating",
@@ -46,6 +66,26 @@ export default [
       {
         short: "Fixing underbody",
         long: "This is a long description of the service Undercoating",
+      },
+    ],
+    servLevel: [
+      {
+        level: 1,
+        title: "Level 1 Detail",
+        price: 100,
+        detail: "Level 1 detail description",
+      },
+      {
+        level: 2,
+        title: "Level 2 Detail",
+        price: 200,
+        detail: "Level 2 detail description",
+      },
+      {
+        level: 3,
+        title: "Level 3 Detail",
+        price: 300,
+        detail: "Level 3 detail description",
       },
     ],
   },
@@ -58,6 +98,26 @@ export default [
         long: "This is a long description of the service Ceramics",
       },
     ],
+    servLevel: [
+      {
+        level: 1,
+        title: "Level 1 Detail",
+        price: 100,
+        detail: "Level 1 detail description",
+      },
+      {
+        level: 2,
+        title: "Level 2 Detail",
+        price: 200,
+        detail: "Level 2 detail description",
+      },
+      {
+        level: 3,
+        title: "Level 3 Detail",
+        price: 300,
+        detail: "Level 3 detail description",
+      },
+    ],
   },
   {
     index: "paint_corrections",
@@ -68,6 +128,26 @@ export default [
         long: "This is a long description of the service Paint Corrections",
       },
     ],
+    servLevel: [
+      {
+        level: 1,
+        title: "Level 1 Detail",
+        price: 100,
+        detail: "Level 1 detail description",
+      },
+      {
+        level: 2,
+        title: "Level 2 Detail",
+        price: 200,
+        detail: "Level 2 detail description",
+      },
+      {
+        level: 3,
+        title: "Level 3 Detail",
+        price: 300,
+        detail: "Level 3 detail description",
+      },
+    ],
   },
   {
     index: "painting",
@@ -76,6 +156,26 @@ export default [
       {
         short: "Paint over errthing",
         long: "This is a long description of the service Painting",
+      },
+    ],
+    servLevel: [
+      {
+        level: 1,
+        title: "Level 1 Detail",
+        price: 100,
+        detail: "Level 1 detail description",
+      },
+      {
+        level: 2,
+        title: "Level 2 Detail",
+        price: 200,
+        detail: "Level 2 detail description",
+      },
+      {
+        level: 3,
+        title: "Level 3 Detail",
+        price: 300,
+        detail: "Level 3 detail description",
       },
     ],
   },
