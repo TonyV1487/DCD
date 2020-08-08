@@ -8,6 +8,7 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
+import Contact from "./pages/Contact";
 import NavComp from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -27,6 +28,9 @@ function App() {
             </Route>
             <Route path="/services/:id" children={<Services />}>
               <Services />
+            </Route>
+            <Route path="/contact">
+              <Contact />
             </Route>
           </Switch>
           <Row className="ft-background">
