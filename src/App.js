@@ -17,20 +17,32 @@ function App() {
     <Router>
       <div className="App">
         <Container fluid>
-          <Row>
-            <Col size="md-12">
+          <Row className="ft-background">
+            <Col lg={12} sm={12}>
               <NavComp />
             </Col>
           </Row>
           <Switch>
             <Route exact path={["/"]}>
-              <Home />
+              <Row>
+                <Col lg={12} sm={12}>
+                  <Home />
+                </Col>
+              </Row>
             </Route>
             <Route path="/services/:id" children={<Services />}>
-              <Services />
+              <Row>
+                <Col lg={12} sm={12}>
+                  <Services />
+                </Col>
+              </Row>
             </Route>
             <Route path="/contact">
-              <Contact />
+              <Row>
+                <Col lg={12} sm={12}>
+                  <Contact />
+                </Col>
+              </Row>
             </Route>
           </Switch>
           <Row className="ft-background">

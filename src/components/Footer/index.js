@@ -13,36 +13,72 @@ import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function Footer() {
   return (
     <>
-      <Col xs={12} sm={12} md={4}>
+      <Col sm={12} md={4} className="p-1">
         <Row className="ft-row">
-          <p className="ft-title">Find us on Social Media</p>
+          <Col className="ft-title">Find us on Social Media</Col>
         </Row>
         <Row className="ft-row">
-          <FontAwesomeIcon icon={faInstagram} size="2x" color="white" />
-          <FontAwesomeIcon icon={faFacebook} size="2x" color="white" />
-          <FontAwesomeIcon icon={faYoutube} size="2x" color="white" />
-          <FontAwesomeIcon icon={faYelp} size="2x" color="white" />
+          <Col>
+            <FontAwesomeIcon
+              icon={faInstagram}
+              size="2x"
+              color="white"
+              className="m-1"
+            />
+            <FontAwesomeIcon
+              icon={faFacebook}
+              size="2x"
+              color="white"
+              className="m-1"
+            />
+            <FontAwesomeIcon
+              icon={faYoutube}
+              size="2x"
+              color="white"
+              className="m-1"
+            />
+            <FontAwesomeIcon
+              icon={faYelp}
+              size="2x"
+              color="white"
+              className="m-1"
+            />
+          </Col>
         </Row>
       </Col>
-      <Col xs={12} sm={12} md={4}>
+      <Col xs={12} sm={12} md={4} className="p-1">
         <Row className="ft-row">
-          <p className="ft-title">Visit Us</p>
+          <Col className="ft-title">Visit Us</Col>
         </Row>
         <Row className="ft-row">
-          <p className="ft-text">
+          <Col className="ft-text">
             841 E Wilson St<br></br>
             Batavia, IL 60510
-          </p>
+          </Col>
         </Row>
       </Col>
-      <Col xs={12} sm={12} md={4}>
+      <Col xs={12} sm={12} md={4} className="p-1">
         <Row className="ft-row">
-          <FontAwesomeIcon icon={faPhone} size="lg" color="white" />
-          <p className="ft-title">Call Us - (555) 555-5555</p>
+          <Col className="ft-title">
+            <FontAwesomeIcon
+              icon={faPhone}
+              size="lg"
+              color="white"
+              className="mr-3 mt-1"
+            />
+            Call Us - (555) 555-5555
+          </Col>
         </Row>
         <Row className="ft-row">
-          <FontAwesomeIcon icon={faEnvelope} size="lg" color="white" />
-          <p className="ft-title">Email Us - info@dcdtl.com</p>
+          <Col className="ft-title">
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              size="lg"
+              color="white"
+              className="mr-3 mt-1"
+            />
+            Email Us - info@dcdtl.com
+          </Col>
         </Row>
       </Col>
     </>
