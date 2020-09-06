@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
+import About from "./pages/AboutUs";
 import NavComp from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -41,6 +42,13 @@ function App() {
               <Row>
                 <Col lg={12} sm={12}>
                   <Contact />
+                </Col>
+              </Row>
+            </Route>
+            <Route path="/about">
+              <Row>
+                <Col lg={12} sm={12}>
+                  <About />
                 </Col>
               </Row>
             </Route>

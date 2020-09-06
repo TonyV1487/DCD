@@ -1,12 +1,20 @@
 import React from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import Logo from "./logo1.png";
 
 function NavComp() {
   return (
     <>
       <Navbar bg="dark" variant="dark" expand="lg" className="d-flex">
         <div className="d-flex mr-auto">
-          <Navbar.Brand href="#home">Diamond Ceramics & Detailing</Navbar.Brand>
+          <Navbar.Brand href="#home" className="d-flex ml-4">
+            <img
+              alt=""
+              src={Logo}
+              width="50%"
+              className="d-inline-flex align-left"
+            />
+          </Navbar.Brand>
         </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
