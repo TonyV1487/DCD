@@ -24,13 +24,6 @@ function App() {
             </Col>
           </Row>
           <Switch>
-            <Route exact path={["/"]}>
-              <Row>
-                <Col lg={12} sm={12}>
-                  <Home />
-                </Col>
-              </Row>
-            </Route>
             <Route path="/services/:id" children={<Services />}>
               <Row>
                 <Col lg={12} sm={12}>
@@ -49,6 +42,13 @@ function App() {
               <Row>
                 <Col lg={12} sm={12}>
                   <About />
+                </Col>
+              </Row>
+            </Route>
+            <Route exact path={["/"]}>
+              <Row>
+                <Col lg={12} sm={12}>
+                  <Home />
                 </Col>
               </Row>
             </Route>

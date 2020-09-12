@@ -7,7 +7,7 @@ function NavComp() {
     <>
       <Navbar bg="dark" variant="dark" expand="lg" className="d-flex">
         <div className="d-flex mr-auto">
-          <Navbar.Brand href="#home" className="d-flex ml-4">
+          <Navbar.Brand href="/" className="d-flex ml-4">
             <img
               alt=""
               src={Logo}
@@ -21,7 +21,7 @@ function NavComp() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto"></Nav>
           <Nav>
-            <Nav.Link className="mx-4" href="#home">
+            <Nav.Link className="mx-4" href="/">
               Home
             </Nav.Link>
             <NavDropdown
@@ -29,25 +29,33 @@ function NavComp() {
               title="Services"
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item href="#action/3.1">Detailing</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Semi</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
+              <NavDropdown.Item href="/services/detailing">
+                Detailing
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/services/semi">Semi</NavDropdown.Item>
+              <NavDropdown.Item href="/services/undercoating">
                 Undercoating
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">Ceramics</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.5">
+              <NavDropdown.Item href="/services/ceramics">
+                Ceramics
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/services/paint_corrections">
                 Paint Correction
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.6">Painting</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.7">Aviation</NavDropdown.Item>
+              <NavDropdown.Item href="/services/painting">
+                Painting
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/services/aviation">
+                Aviation
+              </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className="mx-4" href="#link">
+            <Nav.Link className="mx-4" href="/contact">
               Contact
             </Nav.Link>
-            <Nav.Link className="mx-4" href="#link">
+            <Nav.Link className="mx-4" href="/gallery">
               Gallery
             </Nav.Link>
-            <Nav.Link className="mx-4" href="#link">
+            <Nav.Link className="mx-4" href="/about">
               About Us
             </Nav.Link>
           </Nav>
