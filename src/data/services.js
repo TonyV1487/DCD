@@ -11,21 +11,22 @@ export default [
     servLevel: [
       {
         level: 1,
-        title: "Level 1 Detail",
+        title: "Level 1",
         price: 100,
-        detail: "Level 1 detail description",
+        detail: "Full Wash & Detailed Interior Cleaning",
       },
       {
         level: 2,
-        title: "Level 2 Detail",
+        title: "Level 2",
         price: 200,
-        detail: "Level 2 detail description",
+        detail: "Full Wash, Detailed Interior Cleaning & Protective Coating",
       },
       {
         level: 3,
-        title: "Level 3 Detail",
+        title: "Level 3",
         price: 300,
-        detail: "Level 3 detail description",
+        detail:
+          "Wash full buff or partial buff detailed Interior cleaning & Protective Coating",
       },
     ],
   },
@@ -41,21 +42,45 @@ export default [
     servLevel: [
       {
         level: 1,
-        title: "Level 1 Detail",
+        title: "Chrome Polishing",
         price: 100,
         detail: "Level 1 detail description",
       },
       {
         level: 2,
-        title: "Level 2 Detail",
+        title: "Rim buff and polish",
         price: 200,
         detail: "Level 2 detail description",
       },
       {
         level: 3,
-        title: "Level 3 Detail",
+        title: "Cabinet cleanings",
         price: 300,
-        detail: "Level 3 detail description",
+        detail: "description",
+      },
+      {
+        level: 4,
+        title: "Trailer wash",
+        price: 400,
+        detail: "description",
+      },
+      {
+        level: 5,
+        title: "Full wash and wax",
+        price: 500,
+        detail: "description",
+      },
+      {
+        level: 6,
+        title: "Carpet Cleaning",
+        price: 600,
+        detail: "description",
+      },
+      {
+        level: 7,
+        title: "Cabin detailed cleaning",
+        price: 700,
+        detail: "description",
       },
     ],
   },
@@ -71,19 +96,20 @@ export default [
     servLevel: [
       {
         level: 1,
-        title: "Level 1 Detail",
+        title: "Basic Undercoatings",
         price: 100,
-        detail: "Level 1 detail description",
+        detail:
+          "Cleaning and degreasing of all rusted surfaces. Removal of rust using pneumatic tools and brushes, application of protective undercoating to the underside of the vehicle",
       },
       {
         level: 2,
-        title: "Level 2 Detail",
+        title: "Cavity Wax",
         price: 200,
         detail: "Level 2 detail description",
       },
       {
         level: 3,
-        title: "Level 3 Detail",
+        title: "Filling",
         price: 300,
         detail: "Level 3 detail description",
       },
@@ -101,31 +127,35 @@ export default [
     servLevel: [
       {
         level: 1,
-        title: "Level 1 Detail",
+        title: "Level 1",
         price: 100,
-        detail: "Level 1 detail description",
+        detail:
+          "Exterior Wash with Wheel Cleaning, Paint Polish, with Ceramic Coating",
       },
       {
         level: 2,
-        title: "Level 2 Detail",
+        title: "Level 2",
         price: 200,
-        detail: "Level 2 detail description",
+        detail:
+          "Exterior Wash with Wheel Cleaning, Light Buff, Paint Polish & Ceramic Coating, Detailed Interior Cleaning with Carpet Cleaning",
       },
       {
         level: 3,
-        title: "Level 3 Detail",
+        title: "Level 3",
         price: 300,
-        detail: "Level 3 detail description",
+        detail:
+          "Exterior Wash with Wheel Cleaning, Aggressive Buff, Paint Polish & Ceramic Coating including Rims, Detailed Interior Cleaning with Carpet Cleaning",
       },
     ],
   },
   {
     index: "paint_corrections",
-    service: "Paint Corrections",
+    service: "Paint Revitalization",
     detail: [
       {
         short: "Fix your fade",
-        long: "This is a long description of the service Paint Corrections",
+        long:
+          "Polishing of the exterior paint and removal of minor scratches bringing back the original shine. Apply a ceramic coating to shield your paint from everything insects, rocks, and other debris on the road. Our nano ceramic technology protects your vehicle from harmful UV rays, sunfade, and hard water marks. The slick, hydrophobic coating produces a high gloss finish.",
       },
     ],
     servLevel: [
