@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
-import Logo from "./logo1.png";
+import Logo from "./logo1_whitebg.png";
 
 function NavComp() {
   return (

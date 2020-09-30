@@ -16,7 +16,7 @@ const Home = () => {
       </Row>
       <Row>
         {data.map((service) => (
-          <Col lg={4} sm={6} key={service.service}>
+          <Col lg={12} sm={12} key={service.service}>
             <ServCards
               key={service.service}
               type={service.service}
@@ -25,7 +25,7 @@ const Home = () => {
           </Col>
         ))}
       </Row>
-      <Row>
+      <Row className="py-5">
         <Col size="md-12">
           <EmailInput />
         </Col>

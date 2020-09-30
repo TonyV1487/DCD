@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+import { Card, Row, Col, Image } from "react-bootstrap";
 
 function ServCards(props) {
   const { type, info } = props;
@@ -7,13 +7,24 @@ function ServCards(props) {
   console.log(info);
   return (
     <Card>
-      <Card.Img variant="top" src="http://placehold.it/100x100" />
-      <Card.Body>
-        <Card.Title>{type}</Card.Title>
-        {info.map((info) => (
-          <Card.Text key={info}>{info.short}</Card.Text>
-        ))}
-      </Card.Body>
+      <Row>
+        <Col lg={6}>
+          <Image
+            className="m-2"
+            width="50%"
+            src="http://placehold.it/200x100"
+            fluid
+          />
+        </Col>
+        <Col lg={6}>
+          <Card.Body>
+            <Card.Title>{type}</Card.Title>
+            {info.map((info) => (
+              <Card.Text key={info}>{info.short}</Card.Text>
+            ))}
+          </Card.Body>
+        </Col>
+      </Row>
     </Card>
   );
 }
