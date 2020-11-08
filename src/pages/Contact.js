@@ -55,7 +55,7 @@ const Contact = () => {
             </Row>
           </Form>
         </Col>
-        <Col md={6} sm={12} className="textLeft px-5">
+        <Col md={6} sm={12} className="textCenter px-5">
           <Row>
             <Col md={2} sm={0}></Col>
             <Col md={8} sm={12}>
