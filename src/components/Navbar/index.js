@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
-import Logo from "./logo1_whitebg.png";
+import Logo from "./logo.png";
 
 function NavComp() {
   return (
@@ -24,9 +24,9 @@ function NavComp() {
             <Nav.Link className="mx-4" href="/">
               Home
             </Nav.Link>
-            <NavDropdown
+            <NavDropdown  
               className="mx-4"
-              title="Services"
+              title="Vehicle"
               id="basic-nav-dropdown"
             >
               <NavDropdown.Item href="/services/detailing">
@@ -45,8 +45,31 @@ function NavComp() {
               <NavDropdown.Item href="/services/painting">
                 Painting
               </NavDropdown.Item>
-              <NavDropdown.Item href="/services/aviation">
-                Aviation
+              
+            </NavDropdown>
+            <NavDropdown  
+              className="mx-4"
+              title="Aviation"
+              id="basic-nav-dropdown"
+            >
+              <NavDropdown.Item href="/">
+                Exterior Cleanings
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/">Interior Cleaning</NavDropdown.Item>
+              <NavDropdown.Item href="/">
+                Paint Revitalization
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/">
+                Ceramic Coating
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/">
+                Brightwork
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/">
+                Boots
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/">
+                Painting
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link className="mx-4" href="/contact">
