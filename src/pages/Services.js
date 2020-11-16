@@ -53,6 +53,7 @@ const Services = () => {
       </Row>
       <Row className="space-evenly">
         {serviceLvls.map((servLvl) => (
+          <Col sm={6} md={4}>
           <Card key={servLvl.level}>
             <Card.Img variant="top" src="http://placehold.it/100x100" />
             <Card.Body>
@@ -61,6 +62,7 @@ const Services = () => {
               <Card.Text>{servLvl.price}</Card.Text>
             </Card.Body>
           </Card>
+          </Col>
         ))}
       </Row>
     </>
