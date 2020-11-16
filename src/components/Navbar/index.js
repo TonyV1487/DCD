@@ -11,11 +11,11 @@ function NavComp() {
             <img
               alt=""
               src={Logo}
-              width="50%"
+              width="30%"
               className="d-inline-flex align-left"
             />
           </Navbar.Brand>
-        </div>
+     
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
         <Navbar.Collapse id="basic-navbar-nav">
@@ -83,6 +83,7 @@ function NavComp() {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        </div>
       </Navbar>
     </>
   );
