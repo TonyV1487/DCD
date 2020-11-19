@@ -5,7 +5,7 @@ export default [
     detail: [
       {
         short: "Car detailing",
-        long: "This is a long description of the service Detailing",
+        long: "Our experienced service professionals are here to get your vehicle looking better than new! We offer a variety of services and packages to fit your vehicle's specific needs. Whether it's refurbishing your vehicles paint and giving it a protective coating, or simply giving it some overdue TLC with a detailed cleaning inside and out, we have you covered!",
       },
     ],
     servLevel: [
@@ -36,7 +36,7 @@ export default [
     detail: [
       {
         short: "Semi work",
-        long: "This is a long description of the service Semi",
+        long: "When you're always on the road, your truck works as hard as you do. Keep your truck looking clean, polished, refined and professional. Turn heads, wherever the road takes you. At Diamond Ceramics & Detailing, we pull out all the stops to have your wheels, paint, chrome, cab, and trailer looking their best! Be the king of the road and look the part with a truck to match.",
       },
     ],
     servLevel: [
@@ -90,7 +90,7 @@ export default [
     detail: [
       {
         short: "Fixing underbody",
-        long: "This is a long description of the service Undercoating",
+        long: "When you're always on the road, your truck works as hard as you do. Keep your truck looking clean, polished, refined and professional. Turn heads, wherever the road takes you. At Diamond Ceramics & Detailing, we pull out all the stops to have your wheels, paint, chrome, cab, and trailer looking their best! Be the king of the road and look the part with a truck to match.",
       },
     ],
     servLevel: [
@@ -105,7 +105,7 @@ export default [
         level: 2,
         title: "Cavity Wax",
         price: 200,
-        detail: "Level 2 detail description",
+        detail: "Rust is a tricky thing to stop. Be sure it is taken care of with a cavity wax. We strip away existing rust and fill in your frame, and wheel wells to stop rust, where ever it may hide.",
       },
       {
         level: 3,
@@ -121,7 +121,7 @@ export default [
     detail: [
       {
         short: "Sooo shiny",
-        long: "This is a long description of the service Ceramics",
+        long: "Get serious about your vehicles appearance by shielding your paint from any damage from debris and the elements. Our nano-ceramic technology penetrates deep into the minor imperfections on your paint's surface, leaving a sleek, durable barrier that both protects your vehicle's paint and leaves it shining like a diamond!",
       },
     ],
     servLevel: [
@@ -130,21 +130,21 @@ export default [
         title: "Level 1",
         price: 100,
         detail:
-          "Exterior Wash with Wheel Cleaning, Paint Polish, with Ceramic Coating",
+          "We meticulously clean the surface of your paint and wheels. Before giving your vehicle it's protective ceramic coating, we machine polish your paint to highlight it's shine.",
       },
       {
         level: 2,
         title: "Level 2",
         price: 200,
         detail:
-          "Exterior Wash with Wheel Cleaning, Light Buff, Paint Polish & Ceramic Coating, Detailed Interior Cleaning with Carpet Cleaning",
+          "We thoroughly clean the surface of your paint and wheels. Next, we address the minor dings and scratches in your paint before polishing to bring out it's shine. When we have your paint looking right, we finish with your protective ceramic coating. We'll have you feeling fresh inside and out, adding a detailed interior cleaning to complete the process.",
       },
       {
         level: 3,
         title: "Level 3",
         price: 300,
         detail:
-          "Exterior Wash with Wheel Cleaning, Aggressive Buff, Paint Polish & Ceramic Coating including Rims, Detailed Interior Cleaning with Carpet Cleaning",
+          "Need to restore your paint to it's former glory? As always, we properly clean your paint and wheels before going into an aggressive buff to correct paint imperfections. From there we buff and polish your paint to refine it's appearance. Once your paint has been brought back to life, we ensure it stays that way by applying your protective ceramic coating. We don't stop there, this package is designed to impress, with an added interior detail carpet steam, and even a ceramic coat on your wheels.",
       },
     ],
   },
