@@ -222,12 +222,9 @@ export default [
       {
         level: 1,
         title: "Drywash",
-        price: ,
-        detail: "
-        <ul>
+        price: 0,
+        detail: ""
         
-        </ul>
-        ",
       },
       {
         level: 2,
