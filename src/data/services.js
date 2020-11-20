@@ -222,21 +222,87 @@ export default [
       {
         level: 1,
         title: "Drywash",
-        price: 0,
         detail: ""
         
       },
       {
         level: 2,
-        title: "Level 2 Detail",
-        price: 200,
-        detail: "Level 2 detail description",
+        title: "Wetwash",
+        detail: "",
       },
       {
         level: 3,
-        title: "Level 3 Detail",
-        price: 300,
-        detail: "Level 3 detail description",
+        title: "Gear Wells",
+        detail: "",
+      },
+    ],
+  },
+  {
+    index: "av_intclean",
+    service: "Interior Cleanings",
+    detail: [
+      {
+        short: "Short description for Aviation - Interior Cleanings",
+        long: "Long description for Aviation - Interior Cleanings",
+      },
+    ],
+    servLevel: [
+      {
+        level: 1,
+        title: "Level 1",
+        detail: ""
+        
+      },
+      {
+        level: 2,
+        title: "Level 2",
+        detail: "",
+      },
+      {
+        level: 3,
+        title: "Level 3",
+        detail: "",
+      },
+    ],
+  },
+  {
+    index: "av_paintrev",
+    service: "Paint Revitalization",
+    detail: [
+      {
+        short: "Short description of Aviation - Paint Revitalization",
+        long: "Polishing of the exterior paint and removal of minor scratches bringing back the original shine",
+      },
+    ],
+    servLevel: [
+      
+    ],
+  },
+  {
+    index: "av_ceramics",
+    service: "Ceramic Coating",
+    detail: [
+      {
+        short: "Short description for Aviation - Ceramic Coating",
+        long: "Long description for Aviation - Ceramic Coating",
+      },
+    ],
+    servLevel: [
+      {
+        level: 1,
+        title: "Level 1",
+        detail: "Exterior wash with landing gear cleaning, paint polish, with ceramic coating"
+        
+      },
+      {
+        level: 2,
+        title: "Level 2",
+        detail: "Exterior wash with landing gear cleaning, light buff, paint polish & ceramic coating, detailed interior cleaning with carpet cleaning",
+      },
+      {
+        level: 3,
+        title: "Level 3",
+        detail: "Exterior wash with landing gear cleaning, aggressive buff, paint polish & ceramic coating including rims, detailed interior cleaning with carpet cleaning",
       },
     ],
   },
