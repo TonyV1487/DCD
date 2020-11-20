@@ -209,4 +209,64 @@ export default [
       },
     ],
   },
+  {
+    index: "av_extclean",
+    service: "Exterior Cleanings",
+    detail: [
+      {
+        short: "Short description for Aviation - Exterior Cleanings",
+        long: "Long description for Aviation - Exterior Cleanings",
+      },
+    ],
+    servLevel: [
+      {
+        level: 1,
+        title: "Drywash",
+        price: ,
+        detail: "
+        <ul>
+        
+        </ul>
+        ",
+      },
+      {
+        level: 2,
+        title: "Level 2 Detail",
+        price: 200,
+        detail: "Level 2 detail description",
+      },
+      {
+        level: 3,
+        title: "Level 3 Detail",
+        price: 300,
+        detail: "Level 3 detail description",
+      },
+    ],
+  },
+  {
+    index: "av_brightwork",
+    service: "Brightwork",
+    detail: [
+      {
+        short: "Short description of brightwork",
+        long: "You take pride in your aircraft, we take pride in keeping your brightwork looking flawless. Our highly trained professionals strip away oxidation, clouding, and minor imperfections in the aluminum. Then we finish by polishing the surface to achieve that stunning mirror finish.",
+      },
+    ],
+    servLevel: [
+      
+    ],
+  },
+  {
+    index: "av_boots",
+    service: "Boots",
+    detail: [
+      {
+        short: "Short description of boots",
+        long: "Don't let your deicing boots collect bugs, debris, or become  dry and cracked. Our service professionals are here to strip away tired old layers of sealant and reseal your deicing boots. We'll leave your boots looking sleek with an 'always wet' looking finish.",
+      },
+    ],
+    servLevel: [
+      
+    ],
+  },
 ];

@@ -52,23 +52,23 @@ function NavComp() {
               title="Aviation"
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item href="/">
+              <NavDropdown.Item href="/services/av_extclean">
                 Exterior Cleanings
               </NavDropdown.Item>
-              <NavDropdown.Item href="/">Interior Cleaning</NavDropdown.Item>
-              <NavDropdown.Item href="/">
+              <NavDropdown.Item href="/services/av_intclean">Interior Cleaning</NavDropdown.Item>
+              <NavDropdown.Item href="/services/av_paintrev">
                 Paint Revitalization
               </NavDropdown.Item>
-              <NavDropdown.Item href="/">
+              <NavDropdown.Item href="/services/av_ceramics">
                 Ceramic Coating
               </NavDropdown.Item>
-              <NavDropdown.Item href="/">
+              <NavDropdown.Item href="/services/av_brightwork">
                 Brightwork
               </NavDropdown.Item>
-              <NavDropdown.Item href="/">
+              <NavDropdown.Item href="/services/av_boots">
                 Boots
               </NavDropdown.Item>
-              <NavDropdown.Item href="/">
+              <NavDropdown.Item href="/services/av_painting">
                 Painting
               </NavDropdown.Item>
             </NavDropdown>
