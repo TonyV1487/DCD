@@ -1,18 +1,17 @@
 import React from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import Logo from "./logo.png";
+import "./style.css";
 
 function NavComp() {
   return (
     <>
       <Navbar bg="dark" variant="dark" expand="lg" className="d-flex">
-        <div className="d-flex mr-auto">
           <Navbar.Brand href="/" className="d-flex ml-4">
             <img
               alt=""
               src={Logo}
-              width="30%"
-              className="d-inline-flex align-left"
+              className="d-inline-flex align-left img"
             />
           </Navbar.Brand>
      
@@ -83,7 +82,6 @@ function NavComp() {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-        </div>
       </Navbar>
     </>
   );
