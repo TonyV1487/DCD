@@ -43,12 +43,12 @@ const Services = () => {
       </Row>
       <Row>
         <Col md={2} />
-        <Col md={8}>{serviceName}</Col>
+        <Col md={8} className="font">{serviceName}</Col>
         <Col md={2} />
       </Row>
       <Row>
         <Col md={2} />
-        <Col md={8}>{serviceDescrip}</Col>
+        <Col md={8} className="font">{serviceDescrip}</Col>
         <Col md={2} />
       </Row>
       <Row className="space-evenly">
@@ -57,10 +57,10 @@ const Services = () => {
           <Card key={servLvl.level}>
             <Card.Img variant="top" src="http://placehold.it/100x100" />
             <Card.Body>
-              <Card.Title>{servLvl.title}</Card.Title>
-              <Card.Text>{servLvl.detail}</Card.Text>
-              <Card.Text>{servLvl.list}</Card.Text>
-              <Card.Text>{servLvl.price}</Card.Text>
+              <Card.Title className="font">{servLvl.title}</Card.Title>
+              <Card.Text className="font">{servLvl.detail}</Card.Text>
+              <Card.Text className="font">{servLvl.list}</Card.Text>
+              <Card.Text className="font">{servLvl.price}</Card.Text>
             </Card.Body>
           </Card>
           </Col>
