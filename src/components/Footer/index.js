@@ -57,7 +57,7 @@ function Footer() {
           </Col>
         </Row>
       </Col>
-      <Col xs={12} sm={12} md={4} className="p-1">
+      <Col xs={12} sm={12} md={4}>
         <Row className="ft-row">
           <Col className="ft-title">
             <FontAwesomeIcon

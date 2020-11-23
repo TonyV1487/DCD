@@ -10,9 +10,7 @@ const Home = () => {
   return (
     <>
       <Row>
-        <Col>
           <MainImage />
-        </Col>
       </Row>
       <Row>
         {data.map((service) => (

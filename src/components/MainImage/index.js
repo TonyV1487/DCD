@@ -1,11 +1,12 @@
 import React from "react";
 import "./style.css";
 import Image from "react-bootstrap/Image";
+import img from "./img.jpg";
 
 function MainImage() {
   return (
     <>
-      <Image src="http://placehold.it/2000x1000" fluid />
+      <Image src={img} className="img" fluid />
     </>
   );
 }

@@ -59,6 +59,7 @@ const Services = () => {
             <Card.Body>
               <Card.Title>{servLvl.title}</Card.Title>
               <Card.Text>{servLvl.detail}</Card.Text>
+              <Card.Text>{servLvl.list}</Card.Text>
               <Card.Text>{servLvl.price}</Card.Text>
             </Card.Body>
           </Card>
