@@ -1,7 +1,10 @@
+
+
 export default [
   {
     index: "detailing",
     service: "Detailing",
+    image: "http://placehold.it/2000x500",
     detail: [
       {
         short: "Car detailing",
@@ -11,28 +14,59 @@ export default [
     servLevel: [
       {
         level: 1,
+        image: "http://placehold.it/100x100",
         title: "Level 1",
-        price: 100,
-        detail: "Full Wash & Detailed Interior Cleaning",
+        price: "",
+        detail: "",
+        bullet: [{
+          bn: 1,
+          text: "- Full Wash & Interior",
+        }],
+        
       },
       {
         level: 2,
+        image: "http://placehold.it/100x100",
         title: "Level 2",
-        price: 200,
-        detail: "Full Wash, Detailed Interior Cleaning & Protective Coating",
+        price: "",
+        detail: "",
+        bullet: [{
+          bn: 1,
+          text: "- Full Wash & Interior",
+        },
+        {
+          bn: 2,
+          text: "- Protective Coating",
+        },
+        ],
       },
       {
         level: 3,
+        image: "http://placehold.it/100x100",
         title: "Level 3",
-        price: 300,
+        price: "",
         detail:
-          "Wash full buff or partial buff detailed Interior cleaning & Protective Coating",
+          "",
+          
+          bullet: [{
+            bn: 1,
+            text: "- Full Wash & Interior",
+          },
+          {
+            bn: 2,
+            text: "- Protective Coating",
+          },
+          {
+            bn: 3,
+            text: "- Partial Buff & Polish",
+          },],
       },
     ],
   },
   {
     index: "semi",
     service: "Semi",
+    image: "http://placehold.it/2000x500",
     detail: [
       {
         short: "Semi work",
@@ -42,51 +76,66 @@ export default [
     servLevel: [
       {
         level: 1,
+        image: "http://placehold.it/100x100",
         title: "Chrome Polishing",
         price: 100,
         detail: "Level 1 detail description",
+        bullet: [],
       },
       {
         level: 2,
+        image: "http://placehold.it/100x100",
         title: "Rim buff and polish",
         price: 200,
         detail: "Level 2 detail description",
+        bullet: [],
       },
       {
         level: 3,
+        image: "http://placehold.it/100x100",
         title: "Cabinet cleanings",
         price: 300,
         detail: "description",
+        bullet: [],
       },
       {
         level: 4,
+        image: "http://placehold.it/100x100",
         title: "Trailer wash",
         price: 400,
         detail: "description",
+        bullet: [],
       },
       {
         level: 5,
+        image: "http://placehold.it/100x100",
         title: "Full wash and wax",
         price: 500,
         detail: "description",
+        bullet: [],
       },
       {
         level: 6,
+        image: "http://placehold.it/100x100",
         title: "Carpet Cleaning",
         price: 600,
         detail: "description",
+        bullet: [],
       },
       {
         level: 7,
+        image: "http://placehold.it/100x100",
         title: "Cabin detailed cleaning",
         price: 700,
         detail: "description",
+        bullet: [],
       },
     ],
   },
   {
     index: "undercoating",
     service: "Undercoating",
+    image: "http://placehold.it/2000x500",
     detail: [
       {
         short: "Fixing underbody",
@@ -96,28 +145,35 @@ export default [
     servLevel: [
       {
         level: 1,
+        image: "http://placehold.it/100x100",
         title: "Basic Undercoatings",
         price: 100,
         detail:
           "Cleaning and degreasing of all rusted surfaces. Removal of rust using pneumatic tools and brushes, application of protective undercoating to the underside of the vehicle",
-      },
+          bullet: [],
+        },
       {
         level: 2,
+        image: "http://placehold.it/100x100",
         title: "Cavity Wax",
         price: 200,
         detail: "Rust is a tricky thing to stop. Be sure it is taken care of with a cavity wax. We strip away existing rust and fill in your frame, and wheel wells to stop rust, where ever it may hide.",
+        bullet: [],
       },
       {
         level: 3,
+        image: "http://placehold.it/100x100",
         title: "Filling",
         price: 300,
         detail: "Level 3 detail description",
+        bullet: [],
       },
     ],
   },
   {
     index: "ceramics",
     service: "Ceramics",
+    image: "http://placehold.it/2000x500",
     detail: [
       {
         short: "Sooo shiny",
@@ -127,30 +183,37 @@ export default [
     servLevel: [
       {
         level: 1,
+        image: "http://placehold.it/100x100",
         title: "Level 1",
         price: 100,
         detail:
           "We meticulously clean the surface of your paint and wheels. Before giving your vehicle it's protective ceramic coating, we machine polish your paint to highlight it's shine.",
-      },
+          bullet: [],
+        },
       {
         level: 2,
+        image: "http://placehold.it/100x100",
         title: "Level 2",
         price: 200,
         detail:
           "We thoroughly clean the surface of your paint and wheels. Next, we address the minor dings and scratches in your paint before polishing to bring out it's shine. When we have your paint looking right, we finish with your protective ceramic coating. We'll have you feeling fresh inside and out, adding a detailed interior cleaning to complete the process.",
-      },
+          bullet: [],
+        },
       {
         level: 3,
+        image: "http://placehold.it/100x100",
         title: "Level 3",
         price: 300,
         detail:
           "Need to restore your paint to it's former glory? As always, we properly clean your paint and wheels before going into an aggressive buff to correct paint imperfections. From there we buff and polish your paint to refine it's appearance. Once your paint has been brought back to life, we ensure it stays that way by applying your protective ceramic coating. We don't stop there, this package is designed to impress, with an added interior detail carpet steam, and even a ceramic coat on your wheels.",
-      },
+          bullet: [],
+        },
     ],
   },
   {
     index: "paint_corrections",
     service: "Paint Revitalization",
+    image: "http://placehold.it/2000x500",
     detail: [
       {
         short: "Fix your fade",
@@ -161,27 +224,34 @@ export default [
     servLevel: [
       {
         level: 1,
+        image: "http://placehold.it/100x100",
         title: "Level 1 Detail",
         price: 100,
         detail: "Level 1 detail description",
+        bullet: [],
       },
       {
         level: 2,
+        image: "http://placehold.it/100x100",
         title: "Level 2 Detail",
         price: 200,
         detail: "Level 2 detail description",
+        bullet: [],
       },
       {
         level: 3,
+        image: "http://placehold.it/100x100",
         title: "Level 3 Detail",
         price: 300,
         detail: "Level 3 detail description",
+        bullet: [],
       },
     ],
   },
   {
     index: "painting",
     service: "Painting",
+    image: "http://placehold.it/2000x500",
     detail: [
       {
         short: "Paint over errthing",
@@ -191,27 +261,34 @@ export default [
     servLevel: [
       {
         level: 1,
+        image: "http://placehold.it/100x100",
         title: "Level 1 Detail",
         price: 100,
         detail: "Level 1 detail description",
+        bullet: [],
       },
       {
         level: 2,
+        image: "http://placehold.it/100x100",
         title: "Level 2 Detail",
         price: 200,
         detail: "Level 2 detail description",
+        bullet: [],
       },
       {
         level: 3,
+        image: "http://placehold.it/100x100",
         title: "Level 3 Detail",
         price: 300,
         detail: "Level 3 detail description",
+        bullet: [],
       },
     ],
   },
   {
     index: "av_extclean",
     service: "Exterior Cleanings",
+    image: "http://placehold.it/2000x500",
     detail: [
       {
         short: "Short description for Aviation - Exterior Cleanings",
@@ -221,25 +298,36 @@ export default [
     servLevel: [
       {
         level: 1,
+        image: "https://i.ibb.co/jWbRd8W/av-extclean-drywash.jpg",
         title: "Drywash",
-        detail: ""
+        detail: "Detail",
+          
+        bullet: [
+            
+        ]
+       
         
       },
       {
         level: 2,
+        image: "https://i.ibb.co/QvGwRYm/av-extclean-wetwash.jpg",
         title: "Wetwash",
         detail: "",
+        bullet: [],
       },
       {
         level: 3,
+        image: "http://placehold.it/100x100",
         title: "Gear Wells",
         detail: "",
+        bullet: [],
       },
     ],
   },
   {
     index: "av_intclean",
     service: "Interior Cleanings",
+    image: "http://placehold.it/2000x500",
     detail: [
       {
         short: "Short description for Aviation - Interior Cleanings",
@@ -249,25 +337,32 @@ export default [
     servLevel: [
       {
         level: 1,
+        image: "http://placehold.it/100x100",
         title: "Level 1",
-        detail: ""
+        detail: "",
+        bullet: [],
         
       },
       {
         level: 2,
+        image: "http://placehold.it/100x100",
         title: "Level 2",
         detail: "",
+        bullet: [],
       },
       {
         level: 3,
+        image: "http://placehold.it/100x100",
         title: "Level 3",
         detail: "",
+        bullet: [],
       },
     ],
   },
   {
     index: "av_paintrev",
     service: "Paint Revitalization",
+    image: "http://placehold.it/2000x500",
     detail: [
       {
         short: "Short description of Aviation - Paint Revitalization",
@@ -281,6 +376,7 @@ export default [
   {
     index: "av_ceramics",
     service: "Ceramic Coating",
+    image: "http://placehold.it/2000x500",
     detail: [
       {
         short: "Short description for Aviation - Ceramic Coating",
@@ -290,25 +386,31 @@ export default [
     servLevel: [
       {
         level: 1,
+        image: "http://placehold.it/100x100",
         title: "Level 1",
-        detail: "Exterior wash with landing gear cleaning, paint polish, with ceramic coating"
-        
+        detail: "Exterior wash with landing gear cleaning, paint polish, with ceramic coating",
+        bullet: [],
       },
       {
         level: 2,
+        image: "http://placehold.it/100x100",
         title: "Level 2",
         detail: "Exterior wash with landing gear cleaning, light buff, paint polish & ceramic coating, detailed interior cleaning with carpet cleaning",
+        bullet: [],
       },
       {
         level: 3,
+        image: "http://placehold.it/100x100",
         title: "Level 3",
         detail: "Exterior wash with landing gear cleaning, aggressive buff, paint polish & ceramic coating including rims, detailed interior cleaning with carpet cleaning",
+        bullet: [],
       },
     ],
   },
   {
     index: "av_brightwork",
     service: "Brightwork",
+    image: "https://i.ibb.co/cbFF71t/av-bright.jpg",
     detail: [
       {
         short: "Short description of brightwork",
@@ -322,6 +424,7 @@ export default [
   {
     index: "av_boots",
     service: "Boots",
+    image: "http://placehold.it/2000x500",
     detail: [
       {
         short: "Short description of boots",
