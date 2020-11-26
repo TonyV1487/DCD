@@ -14,7 +14,7 @@ export default [
     servLevel: [
       {
         level: 1,
-        image: "http://placehold.it/100x100",
+        image: "https://i.ibb.co/NFg3n4J/v-detail-lvl1.jpg",
         title: "Level 1",
         price: "",
         detail: "",
@@ -26,7 +26,7 @@ export default [
       },
       {
         level: 2,
-        image: "http://placehold.it/100x100",
+        image: "https://i.ibb.co/5crKBjY/v-detail-lvl2.jpg",
         title: "Level 2",
         price: "",
         detail: "",
@@ -42,7 +42,7 @@ export default [
       },
       {
         level: 3,
-        image: "http://placehold.it/100x100",
+        image: "https://i.ibb.co/hCFn9k2/v-detail-lvl3.jpg",
         title: "Level 3",
         price: "",
         detail:
@@ -66,7 +66,7 @@ export default [
   {
     index: "semi",
     service: "Semi",
-    image: "http://placehold.it/2000x500",
+    image: "https://i.ibb.co/NpjdJNF/v-semi-main.jpg",
     detail: [
       {
         short: "Semi work",
@@ -76,7 +76,7 @@ export default [
     servLevel: [
       {
         level: 1,
-        image: "http://placehold.it/100x100",
+        image: "https://i.ibb.co/BwdfWVR/v-semi-chromepolish.jpg",
         title: "Chrome Polishing",
         price: 100,
         detail: "Level 1 detail description",
@@ -84,7 +84,7 @@ export default [
       },
       {
         level: 2,
-        image: "http://placehold.it/100x100",
+        image: "https://i.ibb.co/4pwkMBB/v-semi-rimbp.jpg",
         title: "Rim buff and polish",
         price: 200,
         detail: "Level 2 detail description",
@@ -100,7 +100,7 @@ export default [
       },
       {
         level: 4,
-        image: "http://placehold.it/100x100",
+        image: "https://i.ibb.co/9p5RnRC/v-semi-trailer-wash.jpg",
         title: "Trailer wash",
         price: 400,
         detail: "description",
@@ -108,7 +108,7 @@ export default [
       },
       {
         level: 5,
-        image: "http://placehold.it/100x100",
+        image: "https://i.ibb.co/fnp6vMt/v-semi-fullwashwax.jpg",
         title: "Full wash and wax",
         price: 500,
         detail: "description",
@@ -124,7 +124,7 @@ export default [
       },
       {
         level: 7,
-        image: "http://placehold.it/100x100",
+        image: "https://i.ibb.co/VL06FJY/v-semi-cabin-detail-clean.jpg",
         title: "Cabin detailed cleaning",
         price: 700,
         detail: "description",
@@ -173,7 +173,7 @@ export default [
   {
     index: "ceramics",
     service: "Ceramics",
-    image: "http://placehold.it/2000x500",
+    image: "https://i.ibb.co/prBML99/v-ceramics-main.jpg",
     detail: [
       {
         short: "Sooo shiny",
@@ -183,27 +183,27 @@ export default [
     servLevel: [
       {
         level: 1,
-        image: "http://placehold.it/100x100",
+        image: "https://i.ibb.co/P9BS5Bc/v-ceramics-lvl1.jpg",
         title: "Level 1",
-        price: 100,
+        price: "",
         detail:
           "We meticulously clean the surface of your paint and wheels. Before giving your vehicle it's protective ceramic coating, we machine polish your paint to highlight it's shine.",
           bullet: [],
         },
       {
         level: 2,
-        image: "http://placehold.it/100x100",
+        image: "https://i.ibb.co/kG3NRvw/v-ceramics-lvl2.jpg",
         title: "Level 2",
-        price: 200,
+        price: "",
         detail:
           "We thoroughly clean the surface of your paint and wheels. Next, we address the minor dings and scratches in your paint before polishing to bring out it's shine. When we have your paint looking right, we finish with your protective ceramic coating. We'll have you feeling fresh inside and out, adding a detailed interior cleaning to complete the process.",
           bullet: [],
         },
       {
         level: 3,
-        image: "http://placehold.it/100x100",
+        image: "https://i.ibb.co/XkvMfk7/v-ceramics-lvl3.jpg",
         title: "Level 3",
-        price: 300,
+        price: "",
         detail:
           "Need to restore your paint to it's former glory? As always, we properly clean your paint and wheels before going into an aggressive buff to correct paint imperfections. From there we buff and polish your paint to refine it's appearance. Once your paint has been brought back to life, we ensure it stays that way by applying your protective ceramic coating. We don't stop there, this package is designed to impress, with an added interior detail carpet steam, and even a ceramic coat on your wheels.",
           bullet: [],
