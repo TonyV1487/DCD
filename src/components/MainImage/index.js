@@ -6,7 +6,7 @@ import img from "./img.jpg";
 function MainImage() {
   return (
     <>
-      <Image src={img} className="img" fluid />
+      <Image src={img} className="img" />
     </>
   );
 }
