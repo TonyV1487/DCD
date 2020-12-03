@@ -1,5 +1,15 @@
+.font{
+    font-family: 'Cairo', sans-serif;}
 
-
-
+.text-block {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+  left: 5%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
   
