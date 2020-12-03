@@ -2,6 +2,7 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import MainImage from "../components/MainImage";
+import TestImage from "../components/TestImage";
 import ServCards from "../components/Service Cards";
 import EmailInput from "../components/EmailInput";
 import data from "../data/services";
@@ -10,7 +11,9 @@ const Home = () => {
   return (
     <>
       <Row>
-          <MainImage />
+        <Col>
+          <TestImage />
+          </Col>
       </Row>
       <Row>
         {data.map((service) => (

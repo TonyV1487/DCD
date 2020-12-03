@@ -3,12 +3,15 @@ import "./style.css";
 import Image from "react-bootstrap/Image";
 import img from "./img.jpg";
 
-function MainImage() {
+function TestImage() {
   return (
-    <>
-      <Image src={img} className="img" />
-    </>
+<>
+    <Image src={img} className="img" />
+    
+</>
+    
   );
 }
 
-export default MainImage;
+export default TestImage;
+
