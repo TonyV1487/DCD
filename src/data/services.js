@@ -14,62 +14,38 @@ export default [
     servLevel: [
       {
         level: 1,
-        image: "https://i.ibb.co/NFg3n4J/v-detail-lvl1.jpg",
+        image: "https://i.ibb.co/5crKBjY/v-detail-lvl2.jpg",
         title: "Level 1",
         price: "",
-        detail: "",
-        bullet: [{
-          bn: 1,
-          text: "- Full Wash & Interior",
-        }],
+        detail: "Full Wash & Interior",
+        bullet: [],
         
       },
       {
         level: 2,
-        image: "https://i.ibb.co/5crKBjY/v-detail-lvl2.jpg",
+        image: "https://i.ibb.co/NFg3n4J/v-detail-lvl1.jpg",
         title: "Level 2",
         price: "",
-        detail: "",
-        bullet: [{
-          bn: 1,
-          text: "- Full Wash & Interior",
-        },
-        {
-          bn: 2,
-          text: "- Protective Coating",
-        },
-        ],
+        detail: "Exterior wash rim cleaning with tire shine protective wax with a deep clean interior including cleaning of all surfaces, and seats leather conditioning of any leather vacuuming and shampooing of carpets.",
+        bullet: [],
       },
       {
         level: 3,
         image: "https://i.ibb.co/hCFn9k2/v-detail-lvl3.jpg",
         title: "Level 3",
         price: "",
-        detail:
-          "",
-          
-          bullet: [{
-            bn: 1,
-            text: "- Full Wash & Interior",
-          },
-          {
-            bn: 2,
-            text: "- Protective Coating",
-          },
-          {
-            bn: 3,
-            text: "- Partial Buff & Polish",
-          },],
+        detail: "Exterior wax with a light buff to bring back your paint's shine. Includes a rim cleaning, tire shine, and an interior deep cleaning same as level 2.",
+          bullet: [],
       },
     ],
   },
   {
     index: "semi",
-    service: "Semi",
+    service: "Semi Trucks",
     image: "https://i.ibb.co/NpjdJNF/v-semi-main.jpg",
     detail: [
       {
-        short: "Semi work",
+        short: "Semi Trucks work",
         long: "When you're always on the road, your truck works as hard as you do. Keep your truck looking clean, polished, refined and professional. Turn heads, wherever the road takes you. At Diamond Ceramics & Detailing, we pull out all the stops to have your wheels, paint, chrome, cab, and trailer looking their best! Be the king of the road and look the part with a truck to match.",
       },
     ],
@@ -173,7 +149,7 @@ export default [
   {
     index: "ceramics",
     service: "Ceramics",
-    image: "https://i.ibb.co/prBML99/v-ceramics-main.jpg",
+    image: "http://placehold.it/2000x500",
     detail: [
       {
         short: "Sooo shiny",
@@ -201,7 +177,7 @@ export default [
         },
       {
         level: 3,
-        image: "https://i.ibb.co/XkvMfk7/v-ceramics-lvl3.jpg",
+        image: "https://i.ibb.co/h9jMpXJ/v-ceramics-lvl3.jpg",
         title: "Level 3",
         price: "",
         detail:

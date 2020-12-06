@@ -25,13 +25,13 @@ function NavComp() {
             </Nav.Link>
             <NavDropdown  
               className="mx-4"
-              title="Vehicle"
+              title="Services"
               id="basic-nav-dropdown"
             >
               <NavDropdown.Item href="/services/detailing">
                 Detailing
               </NavDropdown.Item>
-              <NavDropdown.Item href="/services/semi">Semi</NavDropdown.Item>
+              <NavDropdown.Item href="/services/semi">Semi Trucks</NavDropdown.Item>
               <NavDropdown.Item href="/services/undercoating">
                 Undercoating
               </NavDropdown.Item>
