@@ -1,13 +1,15 @@
 
 
 export default [
+  // Detailing
   {
     index: "detailing",
-    service: "Detailing",
+    service: "Car & Truck Detailing",
     image: "http://placehold.it/2000x500",
+    logo: "https://drive.google.com/uc?id=1PrBySfRQEWRmNVGpVQFVcS3YJ3g8HY8-",
     detail: [
       {
-        short: "Car detailing",
+        short: "Car & Truck Detailing",
         long: "Our experienced service professionals are here to get your vehicle looking better than new! We offer a variety of services and packages to fit your vehicle's specific needs. Whether it's refurbishing your vehicles paint and giving it a protective coating, or simply giving it some overdue TLC with a detailed cleaning inside and out, we have you covered!",
       },
     ],
@@ -39,13 +41,15 @@ export default [
       },
     ],
   },
+  // Semi
   {
     index: "semi",
     service: "Semi Trucks",
     image: "https://i.ibb.co/NpjdJNF/v-semi-main.jpg",
+    logo: "https://drive.google.com/uc?id=1SgfPnUwUK_ZGCy5tqYsq-hC7fXctZp5D",
     detail: [
       {
-        short: "Semi Trucks work",
+        short: "Semi trucks detailing and painting services",
         long: "When you're always on the road, your truck works as hard as you do. Keep your truck looking clean, polished, refined and professional. Turn heads, wherever the road takes you. At Diamond Ceramics & Detailing, we pull out all the stops to have your wheels, paint, chrome, cab, and trailer looking their best! Be the king of the road and look the part with a truck to match.",
       },
     ],
@@ -108,10 +112,12 @@ export default [
       },
     ],
   },
+  // Undercoating
   {
     index: "undercoating",
     service: "Undercoating",
     image: "http://placehold.it/2000x500",
+    logo: "https://drive.google.com/uc?id=1hZbi6MQAs8iIk2MmHBElwoyBUosxHhwU",
     detail: [
       {
         short: "Fixing underbody",
@@ -146,10 +152,12 @@ export default [
       },
     ],
   },
+  // Ceramics
   {
     index: "ceramics",
     service: "Ceramics",
     image: "http://placehold.it/2000x500",
+    logo: "https://drive.google.com/uc?id=1oD556UpQ3yRZwn8g_yj3NchyQsep0Pt0",
     detail: [
       {
         short: "Sooo shiny",
@@ -186,10 +194,12 @@ export default [
         },
     ],
   },
+  // Paint Corrections
   {
     index: "paint_corrections",
     service: "Paint Revitalization",
     image: "http://placehold.it/2000x500",
+    logo: "https://drive.google.com/uc?id=14unWaOlmqZ2ECpynZ4L0hi5t1Y_YRUY0",
     detail: [
       {
         short: "Fix your fade",
@@ -224,10 +234,12 @@ export default [
       },
     ],
   },
+  // Painting
   {
     index: "painting",
     service: "Painting",
     image: "http://placehold.it/2000x500",
+    logo: "https://drive.google.com/uc?id=1cWp2EfaAy42BCiPDYCnlhbFXP4H7yzrG",
     detail: [
       {
         short: "Paint over errthing",
@@ -261,10 +273,12 @@ export default [
       },
     ],
   },
+  // Exterior Cleaning
   {
     index: "av_extclean",
     service: "Exterior Cleanings",
     image: "http://placehold.it/2000x500",
+    logo: "https://drive.google.com/uc?id=1TDpXXVJThilFOkiqourb9g3a4fybiU3O",
     detail: [
       {
         short: "Short description for Aviation - Exterior Cleanings",
@@ -276,34 +290,42 @@ export default [
         level: 1,
         image: "https://i.ibb.co/jWbRd8W/av-extclean-drywash.jpg",
         title: "Drywash",
-        detail: "Detail",
+        detail: "The prepping of aircraft including the debugging degreasing then we wipe the entire aircraft down with microfibers and our dry wash solution that pulls up all the dirt with out harming the paint or leaving streaks with out spraying any water in your hanger",
           
         bullet: [
-            
-        ]
-       
-        
-      },
+        ]},
       {
         level: 2,
         image: "https://i.ibb.co/QvGwRYm/av-extclean-wetwash.jpg",
         title: "Wetwash",
-        detail: "",
+        detail: "Prepping of the aircraft including debugging and degreasing then the aircraft is rinsed off and then soap is applied and the aircraft is scrubbed with soft brushes then rinsed and hand dried to prevent any water spots all widows are cleaned by hand only microfibers are used with 50-50 water/alcohol",
         bullet: [],
       },
       {
         level: 3,
         image: "http://placehold.it/100x100",
-        title: "Gear Wells",
+        title: "Gear Wash",
         detail: "",
-        bullet: [],
+        bullet: [{
+          bn: 1,
+          text: "Dry gear wash is the cleaning all surfaces of gears using degreaser only with no water",
+        },
+        {
+          bn: 2,
+          text: "Wet gear wash is the cleaning of the gears where we cover the calipers and wash the gears with water and brushes making sure the calipers stay dry",
+        }
+
+
+        ],
       },
     ],
   },
+  // Interior Cleaning
   {
     index: "av_intclean",
     service: "Interior Cleanings",
     image: "http://placehold.it/2000x500",
+    logo: "https://drive.google.com/uc?id=14ajwN_ATuf_hoDS6Z7ezvr50s0WHRhpN",
     detail: [
       {
         short: "Short description for Aviation - Interior Cleanings",
@@ -335,10 +357,12 @@ export default [
       },
     ],
   },
+  // Paint Revitilization
   {
     index: "av_paintrev",
     service: "Paint Revitalization",
     image: "http://placehold.it/2000x500",
+    logo: "https://drive.google.com/uc?id=1j6ywrxjqTV7EM4NQe2V6IvKuwzBhwGl2",
     detail: [
       {
         short: "Short description of Aviation - Paint Revitalization",
@@ -349,10 +373,12 @@ export default [
       
     ],
   },
+  // Aviation Ceramics
   {
     index: "av_ceramics",
     service: "Ceramic Coating",
     image: "http://placehold.it/2000x500",
+    logo: "https://drive.google.com/uc?id=1MpxxIqGYQjsrwfYQioPj1jC4vNkKLEr-",
     detail: [
       {
         short: "Short description for Aviation - Ceramic Coating",
@@ -383,10 +409,12 @@ export default [
       },
     ],
   },
+  // Brightwork
   {
     index: "av_brightwork",
     service: "Brightwork",
     image: "https://i.ibb.co/cbFF71t/av-bright.jpg",
+    logo: "https://drive.google.com/uc?id=1vIZQSSCj4tvjDSk55aOrzuzldpr0LufQ",
     detail: [
       {
         short: "Short description of brightwork",
@@ -397,10 +425,12 @@ export default [
       
     ],
   },
+  // Booths
   {
     index: "av_boots",
     service: "Boots",
     image: "http://placehold.it/2000x500",
+    logo: "https://drive.google.com/uc?id=1p8ywkJ8LI4LcaRMbcr3jQqCh52uZCIbw",
     detail: [
       {
         short: "Short description of boots",

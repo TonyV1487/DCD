@@ -17,11 +17,12 @@ const Home = () => {
       </Row>
       <Row>
         {data.map((service) => (
-          <Col lg={12} sm={12} key={service.service}>
+          <Col lg={3} md={6} sm={12} key={service.service}>
             <ServCards
               key={service.service}
               type={service.service}
               info={service.detail}
+              logo={service.logo}
             />
           </Col>
         ))}
