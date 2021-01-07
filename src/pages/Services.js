@@ -74,7 +74,7 @@ const Services = () => {
                     {servLvlDesc.text}
                 </Card.Text>
               ))}
-              <Card.Text className="font">{serviceLvlsDesc}</Card.Text>
+                <Card.Text className="font">{serviceLvlsDesc}</Card.Text>
               <Card.Text className="font">{servLvl.price}</Card.Text>
             </Card.Body>
           </Card>
