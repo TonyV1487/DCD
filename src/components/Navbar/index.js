@@ -28,20 +28,20 @@ function NavComp() {
               title="Services"
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item href="/services/detailing">
+              <NavDropdown.Item href="/service/detailing">
                 Detailing
               </NavDropdown.Item>
-              <NavDropdown.Item href="/services/semi">Semi Trucks</NavDropdown.Item>
-              <NavDropdown.Item href="/services/undercoating">
+              <NavDropdown.Item href="/service/semi">Semi Trucks</NavDropdown.Item>
+              <NavDropdown.Item href="/service/undercoating">
                 Undercoating
               </NavDropdown.Item>
-              <NavDropdown.Item href="/services/ceramics">
+              <NavDropdown.Item href="/service/ceramics">
                 Ceramics
               </NavDropdown.Item>
-              <NavDropdown.Item href="/services/paint_corrections">
+              <NavDropdown.Item href="/service/paint_corrections">
                 Paint Correction
               </NavDropdown.Item>
-              <NavDropdown.Item href="/services/painting">
+              <NavDropdown.Item href="/service/painting">
                 Painting
               </NavDropdown.Item>
               
@@ -51,23 +51,23 @@ function NavComp() {
               title="Aviation"
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item href="/services/av_extclean">
+              <NavDropdown.Item href="/aviation/av_extclean">
                 Exterior Cleanings
               </NavDropdown.Item>
-              <NavDropdown.Item href="/services/av_intclean">Interior Cleaning</NavDropdown.Item>
-              <NavDropdown.Item href="/services/av_paintrev">
+              <NavDropdown.Item href="/aviation/av_intclean">Interior Cleaning</NavDropdown.Item>
+              <NavDropdown.Item href="/aviation/av_paintrev">
                 Paint Revitalization
               </NavDropdown.Item>
-              <NavDropdown.Item href="/services/av_ceramics">
+              <NavDropdown.Item href="/aviation/av_ceramics">
                 Ceramic Coating
               </NavDropdown.Item>
-              <NavDropdown.Item href="/services/av_brightwork">
+              <NavDropdown.Item href="/aviation/av_brightwork">
                 Brightwork
               </NavDropdown.Item>
-              <NavDropdown.Item href="/services/av_boots">
+              <NavDropdown.Item href="/aviation/av_boots">
                 Boots
               </NavDropdown.Item>
-              <NavDropdown.Item href="/services/av_painting">
+              <NavDropdown.Item href="/aviation/av_painting">
                 Painting
               </NavDropdown.Item>
             </NavDropdown>

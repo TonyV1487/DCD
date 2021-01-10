@@ -8,6 +8,7 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
+import Aviation from "./pages/Aviation";
 import Contact from "./pages/Contact";
 import About from "./pages/AboutUs";
 import NavComp from "./components/Navbar";
@@ -24,10 +25,17 @@ function App() {
             </Col>
           </Row>
           <Switch>
-            <Route path="/services/:id" children={<Services />}>
+            <Route path="/service/:id" children={<Services />}>
               <Row>
                 <Col lg={12} sm={12}>
                   <Services />
+                </Col>
+              </Row>
+            </Route>
+            <Route path="/aviation/:id" children={<Aviation />}>
+              <Row>
+                <Col lg={12} sm={12}>
+                  <Aviation />
                 </Col>
               </Row>
             </Route>

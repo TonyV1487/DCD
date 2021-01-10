@@ -6,7 +6,7 @@ import "./style.css";
 
 
 
-const Services = () => {
+const Aviation = () => {
   // Pull in service type from URL
   let { id } = useParams();
 
@@ -19,22 +19,20 @@ const Services = () => {
  
 
   useEffect(() => {
-    var arrayLength = data[0].service.length;
-    console.log(data)
+    var arrayLength = data.length;
 
     // Select the correct service by navigating data and matching to id
     for (var i = 0; i < arrayLength; i++) {
-      if (data[0].service[i].index === id) {
-        console.log(data[0].service[i].index)
-        setServiceName(data[0].service[i].service);
-        setServiceDescrip(data[0].service[i].detail[0].long);
-        setServiceImage(data[0].service[i].image);
+      if (data[0].aviation[i].index === id) {
+        setServiceName(data[0].aviation[i].service);
+        setServiceDescrip(data[0].aviation[i].detail[0].long);
+        setServiceImage(data[0].aviation[i].image);
 
         // Move through array of service levels and set state
-        var servLvlArray = data[0].service[i].servLevel.length;
+        var servLvlArray = data[0].aviation[i].servLevel.length;
         var serviceLvlDataArray = [];
         for (var y = 0; y < servLvlArray; y++) {
-          serviceLvlDataArray.push(data[0].service[i].servLevel[y]);
+          serviceLvlDataArray.push(data[0].aviation[i].servLevel[y]);
           console.log(serviceLvlDataArray);
           
         }
@@ -42,7 +40,6 @@ const Services = () => {
         setServiceLvls(serviceLvlDataArray);
       } else {
         // If unable to match id to a service, do nothing
-        console.log("no match")
       };
 
       
@@ -88,4 +85,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Aviation;
