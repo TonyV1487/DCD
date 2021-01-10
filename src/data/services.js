@@ -1,7 +1,8 @@
 
 
-export default [
+export default [{
     // Detailing
+    service: [
     {
       index: "detailing",
       service: "Car & Truck Detailing",
@@ -48,6 +49,7 @@ export default [
       service: "Semi Trucks",
       image: "https://i.ibb.co/NpjdJNF/v-semi-main.jpg",
       logo: "https://drive.google.com/uc?id=1SgfPnUwUK_ZGCy5tqYsq-hC7fXctZp5D",
+      type: "service",
       detail: [
         {
           short: "Semi trucks detailing and painting services",
@@ -119,6 +121,7 @@ export default [
       service: "Undercoating",
       image: "http://placehold.it/2000x500",
       logo: "https://drive.google.com/uc?id=1hZbi6MQAs8iIk2MmHBElwoyBUosxHhwU",
+      type: "service",
       detail: [
         {
           short: "Fixing underbody",
@@ -159,6 +162,7 @@ export default [
       service: "Ceramics",
       image: "http://placehold.it/2000x500",
       logo: "https://drive.google.com/uc?id=1oD556UpQ3yRZwn8g_yj3NchyQsep0Pt0",
+      type: "service",
       detail: [
         {
           short: "Sooo shiny",
@@ -201,6 +205,7 @@ export default [
       service: "Paint Revitalization",
       image: "http://placehold.it/2000x500",
       logo: "https://drive.google.com/uc?id=14unWaOlmqZ2ECpynZ4L0hi5t1Y_YRUY0",
+      type: "service",
       detail: [
         {
           short: "Fix your fade",
@@ -241,6 +246,7 @@ export default [
       service: "Painting",
       image: "http://placehold.it/2000x500",
       logo: "https://drive.google.com/uc?id=1cWp2EfaAy42BCiPDYCnlhbFXP4H7yzrG",
+      type: "service",
       detail: [
         {
           short: "Paint over errthing",
@@ -271,13 +277,15 @@ export default [
           price: "",
           detail: "Level 3 detail description",
           bullet: [],
-        },],},
-    // Exterior Cleaning
+        },],},],
+    aviation: [
+      // Exterior Cleaning
     {
       index: "av_extclean",
       service: "Exterior Cleanings",
       image: "http://placehold.it/2000x500",
       logo: "https://drive.google.com/uc?id=1TDpXXVJThilFOkiqourb9g3a4fybiU3O",
+      type: "aviation",
       detail: [
         {
           short: "Short description for Aviation - Exterior Cleanings",
@@ -323,6 +331,7 @@ export default [
       service: "Interior Cleanings",
       image: "http://placehold.it/2000x500",
       logo: "https://drive.google.com/uc?id=14ajwN_ATuf_hoDS6Z7ezvr50s0WHRhpN",
+      type: "aviation",
       detail: [
         {
           short: "Short description for Aviation - Interior Cleanings",
@@ -360,6 +369,7 @@ export default [
       service: "Paint Revitalization",
       image: "http://placehold.it/2000x500",
       logo: "https://drive.google.com/uc?id=1j6ywrxjqTV7EM4NQe2V6IvKuwzBhwGl2",
+      type: "aviation",
       detail: [
         {
           short: "Short description of Aviation - Paint Revitalization",
@@ -376,6 +386,7 @@ export default [
       service: "Ceramic Coating",
       image: "http://placehold.it/2000x500",
       logo: "https://drive.google.com/uc?id=1MpxxIqGYQjsrwfYQioPj1jC4vNkKLEr-",
+      type: "aviation",
       detail: [
         {
           short: "Short description for Aviation - Ceramic Coating",
@@ -412,6 +423,7 @@ export default [
       service: "Brightwork",
       image: "https://i.ibb.co/cbFF71t/av-bright.jpg",
       logo: "https://drive.google.com/uc?id=1vIZQSSCj4tvjDSk55aOrzuzldpr0LufQ",
+      type: "aviation",
       detail: [
         {
           short: "Short description of brightwork",
@@ -422,12 +434,13 @@ export default [
         
       ],
     },
-    // Booths
+    // Boots
     {
       index: "av_boots",
       service: "Boots",
       image: "http://placehold.it/2000x500",
       logo: "https://drive.google.com/uc?id=1p8ywkJ8LI4LcaRMbcr3jQqCh52uZCIbw",
+      type: "aviation",
       detail: [
         {
           short: "Short description of boots",
@@ -437,4 +450,4 @@ export default [
       servLevel: [
         
       ],
-  },]
+  },],},]

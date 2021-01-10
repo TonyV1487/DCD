@@ -24,10 +24,3 @@ function ServCards(props) {
 }
 export default ServCards;
 
-// src="http://placehold.it/10x10"
-{/* <Card.Img variant="top" src={logo} className="img" /> */}
-
-
-// {info.map((info) => (
-//   <Card.Text key={info}>{info.short}</Card.Text>
-// ))}

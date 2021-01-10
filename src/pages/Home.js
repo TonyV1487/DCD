@@ -9,8 +9,34 @@ import data from "../data/services";
 
 const Home = () => {
 
+// Init different states with this service type info
+const [servType, setServType] = useState();
+const [servInfo, setServInfo] = useState();
+const [servLogo, setServLogo] = useState();
+const  [servArray, setServArray] = useState([]);
+const [avType, setAvType] = useState();
+const [avInfo, setAvInfo] = useState();
+const [avLogo, setAvLogo] = useState();
+const [avArray, setAvArray] = useState([]);
 
+useEffect(() => {
+  var serviceLength = data[0].service.length;
+  var aviationLength = data[0].aviation.length;
+  var serviceDataArray = [];
+  var aviationDataArray = [];
 
+  // Select the correct service by navigating data and matching to id
+  for (var i = 0; i < serviceLength; i++) {
+    serviceDataArray.push(data[0].service[i])
+  }
+  setServArray(serviceDataArray);
+
+  for (var ii = 0; ii < aviationLength; ii++) {
+    aviationDataArray.push(data[0].aviation[ii])
+  }
+  setAvArray(aviationDataArray);
+
+}, []);
 
   return (
     <>
@@ -19,32 +45,38 @@ const Home = () => {
           <TestImage />
           </Col>
       </Row>
-      <Row>
+        <Row>
         Services
-        {data.map((service) => (
-          <Col lg={3} md={6} sm={12} key={service.service}>
+        </Row>
+        <Row>
+        {servArray.map((service) => (
+          <Col lg={3} md={6} sm={12} key={service.index}>
             <ServCards
-              key={service.service}
-              type={service. service}
-              info={service.detail}
-              logo={service.logo}
-            />
-          </Col>
-        ))}
-      </Row>
-      <Row>
-        Aviation
-        {data.map((service) => (
-          <Col lg={3} md={6} sm={12} key={service.service}>
-            <ServCards
-              key={service.service}
+              key={service.index}
               type={service.service}
-              info={service.detail}
+              info={service.detail.short}
               logo={service.logo}
             />
           </Col>
+          
         ))}
-      </Row>
+        </Row>
+        <Row>
+        Aviation
+        </Row>
+        <Row>
+        {avArray.map((service) => (
+          <Col lg={3} md={6} sm={12} key={service.index}>
+            <ServCards
+              key={service.index}
+              type={service.service}
+              info={service.detail.short}
+              logo={service.logo}
+            />
+          </Col>
+        
+        ))}
+        </Row>
       <Row className="py-5">
         <Col size="md-12">
           <EmailInput />
