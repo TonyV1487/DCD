@@ -10,3 +10,15 @@
 .description{
   font-size: large;
 }
+
+.titleFont{
+  font-family: 'Cairo', sans-serif;
+  font-size: 3vw;
+  font-weight: bolder;
+  text-align: center;
+  justify-content: center;
+}
+
+.center{
+  justify-content: center;
+}

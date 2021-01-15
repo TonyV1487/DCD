@@ -45,12 +45,17 @@ useEffect(() => {
           <TestImage />
           </Col>
       </Row>
-        <Row>
+        <Row className="center">
+          <div className="titleFont">
         Services
+        </div>
         </Row>
         <Row>
+        <Col lg={2}></Col>
+          <Col lg={8}>
+            <Row>
         {servArray.map((service) => (
-          <Col lg={3} md={6} sm={12} key={service.index}>
+          <Col lg={4} md={6} sm={12} key={service.index}>
             <ServCards
               key={service.index}
               type={service.service}
@@ -61,12 +66,20 @@ useEffect(() => {
           
         ))}
         </Row>
-        <Row>
+        </Col>
+        <Col lg={2}></Col>
+        </Row>
+        <Row className="center">
+          <div className="titleFont">
         Aviation
+          </div>
         </Row>
         <Row>
+          <Col lg={2}></Col>
+          <Col lg={8}>
+            <Row>
         {avArray.map((service) => (
-          <Col lg={3} md={6} sm={12} key={service.index}>
+          <Col lg={4} md={6} sm={12} key={service.index}>
             <ServCards
               key={service.index}
               type={service.service}
@@ -76,6 +89,9 @@ useEffect(() => {
           </Col>
         
         ))}
+        </Row>
+        </Col>
+        <Col lg={2}></Col>
         </Row>
       <Row className="py-5">
         <Col size="md-12">
