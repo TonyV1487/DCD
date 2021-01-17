@@ -19,7 +19,7 @@ const Aviation = () => {
  
 
   useEffect(() => {
-    var arrayLength = data.length;
+    var arrayLength = data[0].aviation.length;
 
     // Select the correct service by navigating data and matching to id
     for (var i = 0; i < arrayLength; i++) {

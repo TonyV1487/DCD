@@ -277,7 +277,10 @@ export default [{
           price: "",
           detail: "Level 3 detail description",
           bullet: [],
-        },],},],
+        },
+      ],
+    },
+  ],
     aviation: [
       // Exterior Cleaning
     {
@@ -450,4 +453,6 @@ export default [{
       servLevel: [
         
       ],
-  },],},]
+    },
+  ],
+},]
