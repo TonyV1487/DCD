@@ -22,7 +22,13 @@ export default [{
           title: "Level 1",
           price: "",
           detail: "Full Wash & Interior",
-          bullet: [],
+          bullet: [
+            
+            "Detailed wash of the exterior",
+            "Quick wipe down of interior",
+            "Vacuum carpets",
+            "Cleaning of windows and wheels"          
+          ],
           
         },
         {
@@ -39,7 +45,15 @@ export default [{
           title: "Level 3",
           price: "",
           detail: "Exterior wax with a light buff to bring back your paint's shine. Includes a rim cleaning, tire shine, and an interior deep cleaning same as level 2.",
-            bullet: [],
+            bullet: [
+              "Exterior wash",
+              "Wheel cleaning",
+              "Deep clean interior",
+              "Vacuum with carpet shampoo",
+              "Carpet extraction of all cloth seats",
+              "Carpets including trunk",
+              "Light or heavy buff on the exterior depending on the condition of the vehicle to revitalize your paint and bring it back to life. We have several options for protective coatings and waxes that we apply to your vehicle to seal in that freshly buffed paint to keep it shining like a Diamond as well as many other benefits!"
+            ],
         },
       ],
     },
@@ -125,7 +139,7 @@ export default [{
       detail: [
         {
           short: "Fixing underbody",
-          long: "When you're always on the road, your truck works as hard as you do. Keep your truck looking clean, polished, refined and professional. Turn heads, wherever the road takes you. At Diamond Ceramics & Detailing, we pull out all the stops to have your wheels, paint, chrome, cab, and trailer looking their best! Be the king of the road and look the part with a truck to match.",
+          long: "The Midwest is extremely hard on our vehicles between all of the salt in the winter and all the rain in the summer. It’s especially hard on your undercarriage so we offer a service to remove rust and prevent it from coming back using a few Pneumatic tools and brushes as well as rust preventative products and a extremely tough undercoating paint. This can extend your vehicles life by keep it protected from the elements strengthening your frame and keeping rust eating away at your undercarriage. We also do bed linings and repaint flatbed trucks with a variety of different options of paints and resins. We can make sure you get the look and strength your looking for!",
         },
       ],
       servLevel: [
@@ -149,9 +163,9 @@ export default [{
         {
           level: 3,
           image: "http://placehold.it/100x100",
-          title: "Filling",
+          title: "Flatbed Painting",
           price: "",
-          detail: "Level 3 detail description",
+          detail: "We wash and dry the flatbed, feather out all chipped paint, any other imperfections, remove all rust with a D.A. sander, scuff entire flat bed with a variety of sandpaper, scotch bright scrubbing pads to create better adhesion. A rust preventative product is applied to the rust removed areas to prevent rust from coming back. Then we paint your flat bed with a paint or resin of your choice to keep your vehicle looking professional and protecting it all the same time!",
           bullet: [],
         },
       ],
@@ -166,7 +180,7 @@ export default [{
       detail: [
         {
           short: "Sooo shiny",
-          long: "Get serious about your vehicles appearance by shielding your paint from any damage from debris and the elements. Our nano-ceramic technology penetrates deep into the minor imperfections on your paint's surface, leaving a sleek, durable barrier that both protects your vehicle's paint and leaves it shining like a diamond!",
+          long: "Get serious about shielding your vehicles paint while also leaving a sleek hydrophobic scratch resistant barrier where dirt and grime won’t stick to your paint using our Nano ceramic technology that locks in that new or freshly buffed paint.  It has a high gloss finish that keeps your paint shining like a diamond  and makes washing your vehicle a breeze.  Bugs come off easy and water just beads right  off! Just quick rinse and it looks brand new!",
         },
       ],
       servLevel: [
@@ -338,7 +352,7 @@ export default [{
       detail: [
         {
           short: "Short description for Aviation - Interior Cleanings",
-          long: "Long description for Aviation - Interior Cleanings",
+          long: "We take pride in our ability to go above and beyond with our detailed interior cleaning! Wiping down every surface of the aircraft with or sanitizer and cleaner leaving no streaks and cleaning up any messes left behind by passengers. Then, a deep cleaning of all seats using our leather cleaner that does an amazing job of pulling soil out of the leather. We apply leather conditioner if needed making sure to not over condition. Giving seat belts attention if needed while straightening them. Wiping down all the wood and windows in the aircraft making sure to remove all fringed prints and smudges using soft microfibers. Vacuuming all carpets followed by a dry foam shampoo. We also offer carpet extractions if carpet needs extra attention. Finally we finish with a detailed cleaning of the cockpit which includes cleaning of all screens, windows, cupholders, ledges, yolk, and floor cleaning while being very careful of all instruments. If you would prefer a quick post or preflight cleaning we can take care of that too. We have three different levels of cleaning to meet your needs that can be customized how ever needed!",
         },
       ],
       servLevel: [
@@ -347,7 +361,11 @@ export default [{
           image: "http://placehold.it/100x100",
           title: "Level 1",
           detail: "",
-          bullet: [],
+          bullet: [
+            "Cleaning of windows",
+            "Cleaning of tables","Vacuuming", 
+            "Straightening of all seatbelts with a quick cockpit cleaning"
+          ],
           
         },
         {
@@ -355,14 +373,30 @@ export default [{
           image: "http://placehold.it/100x100",
           title: "Level 2",
           detail: "",
-          bullet: [],
+          bullet: [
+            "Cleaning and sanitizing of all surfaces and side walls",
+            "Cleaning of windows tables and wood",
+            "Cleaning and sanitizing of lavatory",
+            "Cockpit cleaning",
+            "Vacuuming of all carpets followed by a dry carpet shampoo"
+
+          ],
         },
         {
           level: 3,
           image: "http://placehold.it/100x100",
           title: "Level 3",
           detail: "",
-          bullet: [],
+          bullet: [
+            "Cleaning and sanitizing of all surfaces and side walls",
+            "Cleaning of all seats and straightening of all seat belts",
+            "Condition all leather",
+            "Cleaning of windows tables and wood",
+            "Cleaning and sanitizing of lavatory",
+            "Cleaning of all drawers and cabinets by removing whatever is in the cabinet or drawer and sanitizing then neatly putting everything back",
+            "Cockpit cleaning",
+            "Vacuuming of all carpets using our carpet extractor and special carpet cleaning products"
+          ],
         },
       ],
     },
@@ -434,7 +468,34 @@ export default [{
         },
       ],
       servLevel: [
-        
+        {
+          level: 1,
+          image: "http://placehold.it/100x100",
+          title: "Leading edge",
+          detail: "Detail",
+          bullet: [],
+        },
+        {
+          level: 2,
+          image: "http://placehold.it/100x100",
+          title: "Inlet polishing",
+          detail: "Detail",
+          bullet: [],
+        },
+        {
+          level: 3,
+          image: "http://placehold.it/100x100",
+          title: "TR polishing",
+          detail: "Detail",
+          bullet: [],
+        },
+        {
+          level: 4,
+          image: "http://placehold.it/100x100",
+          title: "Spinner polishing",
+          detail: "Detail",
+          bullet: [],
+        },
       ],
     },
     // Boots

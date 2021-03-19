@@ -22,3 +22,13 @@
 .center{
   justify-content: center;
 }
+
+.ul{
+  text-align: left;
+    list-style-position: inside;
+    padding-left: 40;
+}
+
+.li{
+  padding-left: 10;
+}

@@ -6,6 +6,7 @@ import TestImage from "../components/TestImage";
 import ServCards from "../components/Service Cards";
 import EmailInput from "../components/EmailInput";
 import data from "../data/services";
+import { Card, Button, Alert } from "react-bootstrap";
 
 const Home = () => {
 
@@ -19,11 +20,15 @@ const [avInfo, setAvInfo] = useState();
 const [avLogo, setAvLogo] = useState();
 const [avArray, setAvArray] = useState([]);
 
+
+
 useEffect(() => {
   var serviceLength = data[0].service.length;
   var aviationLength = data[0].aviation.length;
   var serviceDataArray = [];
   var aviationDataArray = [];
+
+  
 
   // Select the correct service by navigating data and matching to id
   for (var i = 0; i < serviceLength; i++) {
@@ -35,6 +40,7 @@ useEffect(() => {
     aviationDataArray.push(data[0].aviation[ii])
   }
   setAvArray(aviationDataArray);
+
 
 }, []);
 

@@ -69,11 +69,13 @@ const Aviation = () => {
             <Card.Body>
               <Card.Title className="font title">{servLvl.title}</Card.Title>
               <Card.Text className="font">{servLvl.detail}</Card.Text>
-              {servLvl.bullet.map((servLvlDesc) =>(
-                <Card.Text className="font" key={servLvlDesc.bn}>
-                    {servLvlDesc.text}
+              <ul className="ul">
+              {servLvl.bullet.map((bp, index) =>(
+                <Card.Text className="font" key={index}>
+                    <li>{bp}</li>
                 </Card.Text>
               ))}
+              </ul>
                 <Card.Text className="font">{serviceLvlsDesc}</Card.Text>
               <Card.Text className="font">{servLvl.price}</Card.Text>
             </Card.Body>
