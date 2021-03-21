@@ -37,7 +37,14 @@ export default [{
           title: "Level 2",
           price: "",
           detail: "Exterior wash rim cleaning with tire shine protective wax with a deep clean interior including cleaning of all surfaces, and seats leather conditioning of any leather vacuuming and shampooing of carpets.",
-          bullet: [],
+          bullet: [
+            "Exterior wash with a protective wax applied to the paint",
+            "Wheel cleaning with tire shine",
+            "Deep clean interior which includes disinfecting and cleaning of all surfaces of interior with our affective products.",
+            "Condition all of the leather if needed using the right products and are very careful to never over condition.",
+            "Vacuum and dry foam shampoo all carpets.",
+            "Extract cloth seats and carpets with our very affective carpet extractor for a small up charge."
+          ],
         },
         {
           level: 3,
