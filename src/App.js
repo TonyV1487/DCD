@@ -25,7 +25,7 @@ import AddToGallery from "./pages/AddToGallery";
 function App() {
   return (
     <Router>
-      <AuthProvider>
+
       <div className="App">
         <Container fluid>
           <Row className="ft-background">
@@ -34,6 +34,7 @@ function App() {
             </Col>
           </Row>
           <Switch>
+          <AuthProvider>
           <Route path="/signup" children={<Signup />}>
               <Row>
                 <Col lg={12} sm={12}>
@@ -67,6 +68,41 @@ function App() {
                 </Col>
             </Row>
             </Route>
+            <PrivateRoute path="/profile" component={<Profile />}>
+            <Row>
+                <Col lg={12} sm={12}>
+                    <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh"}}>
+                      <div className="w-100" style={{maxWidth: '400px'}}>
+                      <Profile />
+                      </div>
+                    </Container>
+                </Col>
+              </Row>  
+            </PrivateRoute> />
+            <PrivateRoute path="/update-profile" children={<UpdateProfile />}>
+            <Row>
+                <Col lg={12} sm={12}>
+                    <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh"}}>
+                      <div className="w-100" style={{maxWidth: '400px'}}>
+                      <UpdateProfile />
+                      </div>
+                    </Container>
+                </Col>
+              </Row>  
+            </PrivateRoute> />
+            <PrivateRoute path="/add-to-gallery" children={<AddToGallery />}>
+            <Row>
+                <Col lg={12} sm={12}>
+                    <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh"}}>
+                      <div className="w-100" style={{maxWidth: '400px'}}>
+                      <AddToGallery />
+                      </div>
+                    </Container>
+                </Col>
+              </Row>  
+            </PrivateRoute> />
+            </AuthProvider>
+
             <Route path="/service/:id" children={<Services />}>
               <Row>
                 <Col lg={12} sm={12}>
@@ -109,46 +145,13 @@ function App() {
                 </Col>
               </Row>
             </Route>
-            <PrivateRoute path="/profile" component={<Profile />}>
-            <Row>
-                <Col lg={12} sm={12}>
-                    <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh"}}>
-                      <div className="w-100" style={{maxWidth: '400px'}}>
-                      <Profile />
-                      </div>
-                    </Container>
-                </Col>
-              </Row>  
-            </PrivateRoute> />
-            <PrivateRoute path="/update-profile" children={<UpdateProfile />}>
-            <Row>
-                <Col lg={12} sm={12}>
-                    <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh"}}>
-                      <div className="w-100" style={{maxWidth: '400px'}}>
-                      <UpdateProfile />
-                      </div>
-                    </Container>
-                </Col>
-              </Row>  
-            </PrivateRoute> />
-            <PrivateRoute path="/add-to-gallery" children={<AddToGallery />}>
-            <Row>
-                <Col lg={12} sm={12}>
-                    <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh"}}>
-                      <div className="w-100" style={{maxWidth: '400px'}}>
-                      <AddToGallery />
-                      </div>
-                    </Container>
-                </Col>
-              </Row>  
-            </PrivateRoute> />
+
           </Switch>
           <Row className="ft-background mt-2">
             <Footer />
           </Row>
         </Container>
       </div>
-      </AuthProvider>
     </Router>
   );
 }
