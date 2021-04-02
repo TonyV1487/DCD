@@ -6,7 +6,7 @@ export default [{
     {
       index: "detailing",
       service: "Car & Truck Detailing",
-      image: "http://placehold.it/2000x500",
+      image: "gs://diamondceramics-bf5ec.appspot.com/2000x500.png",
       logo: "https://drive.google.com/uc?id=1PrBySfRQEWRmNVGpVQFVcS3YJ3g8HY8-",
       type: "service",
       detail: [
