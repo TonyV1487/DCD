@@ -7,6 +7,7 @@ import ServCards from "../components/Service Cards";
 import EmailInput from "../components/EmailInput";
 import data from "../data/services";
 import { Card, Button, Alert } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Home = () => {
 
@@ -62,12 +63,14 @@ useEffect(() => {
             <Row>
         {servArray.map((service) => (
           <Col lg={4} md={6} sm={12} key={service.index}>
+            <Link to={`/service/${service.index}`} style={{color: 'black'}}>
             <ServCards
               key={service.index}
               type={service.service}
               info={service.detail.short}
               logo={service.logo}
             />
+            </Link>
           </Col>
           
         ))}
@@ -86,12 +89,14 @@ useEffect(() => {
             <Row>
         {avArray.map((service) => (
           <Col lg={4} md={6} sm={12} key={service.index}>
+            <Link to={`/aviation/${service.index}`} style={{color: 'black'}}>
             <ServCards
               key={service.index}
               type={service.service}
               info={service.detail.short}
               logo={service.logo}
             />
+            </Link>
           </Col>
         
         ))}

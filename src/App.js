@@ -33,39 +33,6 @@ function App() {
             </Col>
           </Row>
           <Switch>
-          <Route path="/signup" children={<Signup />}>
-              <Row>
-                <Col lg={12} sm={12}>
-                    <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh"}}>
-                      <div className="w-100" style={{maxWidth: '400px'}}>
-                      <Signup />
-                      </div>
-                    </Container>
-                </Col>
-              </Row>
-            </Route>
-            <Route path="/login" children={<Login />}>
-              <Row>
-                <Col lg={12} sm={12}>
-                    <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh"}}>
-                      <div className="w-100" style={{maxWidth: '400px'}}>
-                      <Login />
-                      </div>
-                    </Container>
-                </Col>
-              </Row>
-            </Route>
-            <Route path="/forgot-password" children={<ForgotPassword />}>
-            <Row>
-                <Col lg={12} sm={12}>
-                    <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh"}}>
-                      <div className="w-100" style={{maxWidth: '400px'}}>
-                      <ForgotPassword />
-                      </div>
-                    </Container>
-                </Col>
-            </Row>
-            </Route>
             <Route path="/service/:id" children={<Services />}>
               <Row>
                 <Col lg={12} sm={12}>
@@ -108,6 +75,40 @@ function App() {
                 </Col>
               </Row>
             </Route>
+            <AuthProvider>
+            <Route path="/signup" children={<Signup />}>
+              <Row>
+                <Col lg={12} sm={12}>
+                    <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh"}}>
+                      <div className="w-100" style={{maxWidth: '400px'}}>
+                      <Signup />
+                      </div>
+                    </Container>
+                </Col>
+              </Row>
+            </Route>
+            <Route path="/login" children={<Login />}>
+              <Row>
+                <Col lg={12} sm={12}>
+                    <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh"}}>
+                      <div className="w-100" style={{maxWidth: '400px'}}>
+                      <Login />
+                      </div>
+                    </Container>
+                </Col>
+              </Row>
+            </Route>
+            <Route path="/forgot-password" children={<ForgotPassword />}>
+            <Row>
+                <Col lg={12} sm={12}>
+                    <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh"}}>
+                      <div className="w-100" style={{maxWidth: '400px'}}>
+                      <ForgotPassword />
+                      </div>
+                    </Container>
+                </Col>
+            </Row>
+            </Route>
             <PrivateRoute path="/profile" component={<Profile />}>
             <Row>
                 <Col lg={12} sm={12}>
@@ -141,6 +142,7 @@ function App() {
                 </Col>
               </Row>  
             </PrivateRoute> />
+            </AuthProvider>
           </Switch>
           <Row className="ft-background mt-2">
             <Footer />

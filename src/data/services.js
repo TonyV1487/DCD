@@ -337,14 +337,8 @@ export default [{
           image: "http://placehold.it/100x100",
           title: "Gear Wash",
           detail: "",
-          bullet: [{
-            bn: 1,
-            text: "Dry gear wash is the cleaning all surfaces of gears using degreaser only with no water",
-          },
-          {
-            bn: 2,
-            text: "Wet gear wash is the cleaning of the gears where we cover the calipers and wash the gears with water and brushes making sure the calipers stay dry",
-          }
+          bullet: ["Dry gear wash is the cleaning all surfaces of gears using degreaser only with no water",
+                    "Wet gear wash is the cleaning of the gears where we cover the calipers and wash the gears with water and brushes making sure the calipers stay dry",
           ],
         },
       ],
@@ -429,7 +423,7 @@ export default [{
       index: "av_ceramics",
       service: "Ceramic Coating",
       image: "http://placehold.it/2000x500",
-      logo: "https://drive.google.com/uc?id=1MpxxIqGYQjsrwfYQioPj1jC4vNkKLEr-",
+      logo: "https://drive.google.com/uc?id=1kN2Tmc6tDmBe-APBeT2_Yz2-z4jmXwdD",
       type: "aviation",
       detail: [
         {
