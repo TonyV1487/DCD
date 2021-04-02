@@ -4,7 +4,7 @@ import {motion} from 'framer-motion';
 import TagsInput from "./TagInput"
 
 
-const Modal = ({selectedImg, setSlectedImg}) => {
+const Modaltag = ({selectedImg, setSlectedImg}) => {
     
     const handleClick = (e) => {
         if(e.target.classList.contains('backdrop')){
@@ -28,8 +28,14 @@ const Modal = ({selectedImg, setSlectedImg}) => {
                 </motion.div>
             </Col>
         </Row>
+        <Row>
+            <Col>
+            <TagsInput selectedTags={selectedTags}/>
+            </Col>
+
+        </Row>
     </>
     )
 }
 
-export default Modal;
+export default Modaltag;
