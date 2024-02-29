@@ -1,8 +1,24 @@
-import React from "react";
+import React, {useState} from "react";
 import { Button, Form, Row, Col } from "react-bootstrap";
 import MapContainer from "../components/GoogleMap";
+import contactFirestore from "../components/contactFirestore";
 
 const Contact = () => {
+  const [firstName, setFirstName] = useState();
+  const [lastName, setlastName] = useState();
+  const [email, setemail] = useState();
+  const [phone, setphone] = useState();
+  const [message, setmessage] = useState();
+
+  function handleClick(e) {
+    e.preventDefault();
+    console.log('The link was clicked.');
+
+    console.log({firstName})
+  };
+
+
+
   return (
     <>
       <Row className="py-3">
@@ -14,7 +30,7 @@ const Contact = () => {
               <Col sm={12} md={6}>
                 <Form.Group controlId="formFirstName">
                   <Form.Label>First Name</Form.Label>
-                  <Form.Control type="firstName" />
+                  <Form.Control type="firstName"  />
                 </Form.Group>
               </Col>
               <Col sm={12} md={6}>
@@ -28,7 +44,7 @@ const Contact = () => {
               <Col sm={12} md={6}>
                 <Form.Group controlId="formEmail">
                   <Form.Label>Email</Form.Label>
-                  <Form.Control type="email" />
+                  <Form.Control type="email"/>
                 </Form.Group>
               </Col>
               <Col sm={12} md={6}>
@@ -42,13 +58,13 @@ const Contact = () => {
               <Col>
                 <Form.Group controlId="message">
                   <Form.Label>Message</Form.Label>
-                  <Form.Control as="textarea" rows="3" />
+                  <Form.Control as="textarea" rows="3" placeholder="How can we help?"/>
                 </Form.Group>
               </Col>
             </Row>
             <Row>
               <Col className="textRight">
-                <Button variant="primary" type="submit">
+                <Button variant="primary" type="submit" onClick={handleClick}>
                   Submit
                 </Button>
               </Col>
